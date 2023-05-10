@@ -2,7 +2,7 @@
 
 export default {
   preset: "ts-jest",
-  testEnvironment: "jsdom",
+  // TestEnvironment: "jsdom",
   testPathIgnorePatterns: ["dist"],
   resolver: "jest-ts-webcompat-resolver",
 };
